@@ -7,7 +7,7 @@ function Footer() {
         <footer>
           <div className="row">
             <div className="col-6">
-              <img src="./assets/images/logo.png" width="60px" />
+              <img src="./assets/images/logo.png" width="40px" />
             </div>
             <div className="col-6 text-end">
               <a href="https://github.com/thuylienvo" className="footlink px-2">github</a>
