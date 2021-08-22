@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './App.css';
 import Nav from './components/Nav';
 import Header from './components/Header';
 import About from './pages/About';
@@ -24,7 +25,9 @@ function App() {
     <>
     <Header>
     {/* Navigation */}
-    <Nav currentPage={currentPage} handlePageChange={handlePageChange}>
+    <Nav pages={pages} 
+          currentPage={currentPage}
+          setCurrentPage={setCurrentPage}>
       </Nav>
     </Header>
     <main>

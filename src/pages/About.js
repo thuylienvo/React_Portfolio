@@ -34,7 +34,7 @@ function About() {
         </div>
       </div>
       {/* Skills */}
-      <div className="container">
+      {/* <div className="container">
         <div className="row mySkills">
           <div className="col-2" />
           <div className="col-8">
@@ -72,7 +72,8 @@ function About() {
           </div>
           <div className="col-3" />
         </div>
-      </div></div>
+      </div> */}
+      </div>
       </>
     );
   };

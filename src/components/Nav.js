@@ -2,7 +2,7 @@ import React from 'react';
 import iconImg from '../assets/imgs/logo.png'
 
 function Nav(props) {
-  const tabs =['Home', 'About', 'Designs', 'Resume','Contact'];
+  const {pages =[],  setCurrentPage, currentPage } = props;
 
 
   return (
@@ -17,14 +17,20 @@ function Nav(props) {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div className="navbar-nav justify-content-end">
               <ul className="navbar-nav justify-content-end">
-                <a className="nav-link text-end active" aria-current="page" href="#">home</a>
-                <a className="nav-link text-end" href="#">about</a>
-                <a className="nav-link text-end" href="#">designs</a>
-                <a className="nav-link text-end" href="#">contact</a>
-              </ul>
+                {pages.map((page) => (
+                  <li key={page}>
+                    <span className={`nav-link text-end ${
+                      currentPage.name === page.name && 'navActive'
+                    }`}
+                    onClick={() => setCurrentPage(page)}>
+                      {page.name}
+                    </span>
+                  </li>
+                ))}
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
       </nav>
       </>
     );
