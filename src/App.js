@@ -33,6 +33,7 @@ function App() {
     <main>
       {renderPage(currentPage)}
     </main>
+    <Footer></Footer>
   </>
   )
 };
