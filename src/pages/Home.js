@@ -11,7 +11,8 @@ function Home () {
         {/* HOME */}
             <div className="mb-5"> 
                 <div className="container jumbo-container">
-                    <div className="row homeImg">
+                    <div className="row homeImg mb-3">
+                        <h3 className="text-center">M I M I | V O </h3>
                         <img src={mimiImg} style={{height: '40rem'}} alt="me" className="img-fluid" />
                     </div>
                     <div className="hide text-center">
@@ -20,14 +21,13 @@ function Home () {
                     </div>
                 </div>
             </div>
-            <Footer></Footer>
-            <div>
-            <div className="container pb-4">
-            <h4 className="text-center sneakHeader"> A sneak peak of my designs </h4>
+ 
+            <div className="container pb-4 pt-4">
+            <h4 className="text-center sneakHeader"> P R O J E C T S </h4>
             </div>
             <div className="container homeSneak">
                 <div className="row ">
-                    <div className="col-1" />
+                    <div className="col-2" />
                     <div className="col-3">
                         <div className="card justify-content-end" style={{width: '18rem'}}>
                             <img src={movieImg} className="card-img-top round" alt="moviemixer" />
@@ -43,10 +43,10 @@ function Home () {
                             <img src={beyondImg} className="card-img-top round" alt="beyond" />
                         </div>
                     </div>
-                    <div className="col-1" />
+                    {/* <div className="col-1" /> */}
                 </div>
             </div>
-        </div>
+        <Footer></Footer>
       </>
     );
   };
