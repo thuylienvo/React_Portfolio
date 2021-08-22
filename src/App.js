@@ -10,22 +10,15 @@ import Footer from './components/Footer';
 
 
 function App() {
-  const [currentPage, handlePageChange] = useState('Home');
+  const [pages] = useState([
+    {name: 'About'},
+    {name: 'Designs'},
+    {name: 'Contact'},
+    {name: 'Resume'},
+    {name: 'Home'},
+  ]);
 
-  const renderPage = () => {
-    switch (currentPage) {
-      case 'About':
-        return <About />;
-      case 'Designs':
-        return <Designs />;
-      case 'Contact':
-        return <Contact />;
-      case 'Resume':
-        return <Resume />;
-      default:
-        return <Home />
-    }
-  };
+  const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
     <>
@@ -35,7 +28,11 @@ function App() {
       </Nav>
     </Header>
     <main>
-      {renderPage(currentPage)}
+      {currentPage.name ==='About' && <About />}
+      {currentPage.name ==='Home' && <Home />}
+      {currentPage.name ==='Designs' && <Designs />}
+      {currentPage.name ==='Resume' && <Resume />}
+      {currentPage.name ==='Contact' && <Contact />}
     </main>
     <Footer></Footer>
   </>
