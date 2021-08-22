@@ -4,7 +4,7 @@ import Header from './components/Header';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
-import Portfolio from './page/Portfolio'
+import Designs from './page/Designs'
 
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
     switch (currentPage) {
       case 'About':
         return <About />;
-      case 'Portfolio':
-        return <Portfolio />;
+      case 'Designs':
+        return <Designs />;
       case 'Contact':
         return <Contact />;
       case 'Resume':
@@ -27,13 +27,14 @@ function App() {
 
   return (
     <>
+    <Header>
     {/* Navigation */}
     <Nav currentPage={currentPage} handlePageChange={handlePageChange}>
       </Nav>
+    </Header>
     <main>
       {renderPage(currentPage)}
     </main>
-    <Footer></Footer>
   </>
   )
 };
