@@ -73,7 +73,6 @@ function About() {
           <div className="col-3" />
         </div>
       </div></div>
-      <Footer></Footer>
       </>
     );
   };

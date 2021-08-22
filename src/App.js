@@ -4,7 +4,9 @@ import Header from './components/Header';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
-import Designs from './page/Designs'
+import Designs from './pages/Designs';
+import Resume from './pages/Resume'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -35,6 +37,7 @@ function App() {
     <main>
       {renderPage(currentPage)}
     </main>
+    <Footer></Footer>
   </>
   )
 };

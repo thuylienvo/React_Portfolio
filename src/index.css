@@ -11,3 +11,102 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+* {
+  font-family: "Lato", sans-serif;
+padding: 0%;
+}
+
+
+/* NAV */
+
+.navLogo {
+  width: 4rem;
+}
+
+.navPadding {
+  padding: none !important;
+}
+
+/* HOME */
+.hide {
+  display: none;
+}
+    
+.homeImg:hover + .hide {
+  display: block;
+  color: black;
+}
+
+.socialMedia {
+  color: lightgrey;
+}
+/* .socialMedia:hover {
+  color: lightgrey;
+} */
+
+/* ABOUT ME */
+.mySkills {
+  /* margin: 4rem 2rem 1rem 4rem; */
+  color: #77b5b3;
+  border-bottom: 2px 4px black;
+}
+
+.name {
+  color: #77b5b3;
+}
+
+.skillsList {
+  list-style-type: circle;
+  /* color: #77b5b3; */
+}
+
+hr {
+  height: 12px;
+  background: black;
+}
+
+.firstP {
+  text-indent: 10px;
+}
+
+/* RESUME */
+.resumeLInk {
+  text-decoration: none;
+  color: none;
+  border: black;
+}
+a {
+  color: none !important;
+}
+
+/* DESIGNS */
+.projectCards {
+  /* padding: 50px; */
+  transition: transform .2s; /* Animation */
+  /* width: 200px;
+  height: 200px; */
+  margin: 0 auto;
+}
+
+.projectCards:hover {
+  /* opacity: .5; */
+  transform: scale(1.2);
+}
+.projectLinks {
+  text-decoration: none;
+  color: darkgray;
+}
+
+/* .listCircle {
+  color: #77b5b3;
+} */
+
+/* FOOTER */
+
+.footlink {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
