@@ -1,18 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-
 * {
   font-family: "Lato", sans-serif;
 padding: 0%;
@@ -97,6 +82,18 @@ a {
 .projectLinks {
   text-decoration: none;
   color: darkgray;
+}
+
+
+/* Contact */ 
+.messageBody {
+  width: 100%;
+padding: 12px; 
+border: 1px solid #ccc;
+box-sizing: border-box; 
+margin-top: 6px;
+margin-bottom: 16px; 
+resize: vertical 
 }
 
 /* .listCircle {

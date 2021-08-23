@@ -13,7 +13,7 @@ function Home () {
                 <div className="container jumbo-container">
                     <div className="row homeImg mb-3">
                         <h3 className="text-center">M I M I | V O </h3>
-                        <img src={mimiImg} style={{height: '40rem'}} alt="me" className="img-fluid" />
+                        <img src={mimiImg} style={{height: '45rem'}} alt="me" className="img-fluid" />
                     </div>
                     <div className="hide text-center">
                         <p className="sneakPeek text-center my-2">Sneak Peek</p>
