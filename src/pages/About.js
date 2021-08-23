@@ -25,7 +25,7 @@ function About() {
               In my spare time, you'll find me hanging out with family at the local park, dining at some new hot spot, reading a thriller, watching some binge-able shows and baking. My creative outlet is managing a small macaron side business where I get to spill my passion for food into little sugar treats.
               <br />
               <br />
-              <span class="fs-5 fw-bolder">Let's Make Something!</span>
+              <span className="fs-5 fw-bolder">Let's Make Something!</span>
           <br />
           Feel free to reach out if you’re looking for a developer, have a question, or just want to connect.
             </p>

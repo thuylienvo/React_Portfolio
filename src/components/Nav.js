@@ -2,8 +2,8 @@ import React from 'react';
 import iconImg from '../assets/imgs/logo.png'
 
 function Nav(props) {
-  const {pages =[],  setCurrentPage, currentPage } = props;
-
+  const {pages, setCurrentPage, currentPage } = props;
+    console.log(pages);
 
   return (
     <>

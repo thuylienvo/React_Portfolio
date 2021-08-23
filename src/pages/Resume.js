@@ -1,5 +1,6 @@
 import React from 'react';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
+import pdf from '../assets/files/Mimi-Resume-21.pdf';
 
 function Resume() {
     return (
@@ -10,7 +11,7 @@ function Resume() {
             <div className="row">
               <h1 className="text-center"> R E S U M E</h1>
               <div className="text-center">
-                <button type="button" className="btn resumeBtn text-center"><a href="Resume.html" className="resumeLInk text-center">download</a></button>
+                <button type="button" className="btn resumeBtn text-center"><a href={pdf} className="resumeLInk text-center" target="_blank">download</a></button>
               </div>
             </div>
           </div>
@@ -44,7 +45,7 @@ function Resume() {
               <div className="col-4" />
             </div>
           </div>
-          Skills
+
           <div className="container mt-3">
             <div className="row mySkills">
               <div className="col-2" />

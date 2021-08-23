@@ -1,6 +1,7 @@
 import React from 'react'; 
-import Footer from '../components/Footer';
-import ProjectsBits from '../components/Projects';
+// import Footer from '../components/Footer';
+import Projects from '../components/Projects';
+
 
 
 const Designs = () => {
@@ -11,7 +12,7 @@ const Designs = () => {
           <h1 className="text-center"> D E S I G N S</h1>
         </div>
         </div>
-       <ProjectsBits></ProjectsBits>
+       <Projects></Projects>
       </>
     );
 };

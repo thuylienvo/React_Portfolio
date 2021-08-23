@@ -12,11 +12,11 @@ import Footer from './components/Footer';
 
 function App() {
   const [pages] = useState([
+    {name: 'Home'},
     {name: 'About'},
     {name: 'Designs'},
-    {name: 'Contact'},
     {name: 'Resume'},
-    {name: 'Home'},
+    {name: 'Contact'},
   ]);
 
   const [currentPage, setCurrentPage] = useState(pages[0]);

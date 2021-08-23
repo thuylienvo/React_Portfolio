@@ -1,11 +1,11 @@
 import React from 'react';
-import { useState } from 'react';
-import Nav from './Nav';
+// import { useState } from 'react';
+// import Nav from './Nav';
 
-function Header () {
+function Header ({children}) {
     return (
       <header>
-        <Nav></Nav>
+        {children}
       </header>
     );
   };

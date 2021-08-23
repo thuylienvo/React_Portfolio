@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 import mimiImg from '../assets/imgs/mimi.jpeg'
 import misoImg from '../assets/imgs/miso.png'
 import movieImg from '../assets/imgs/moviemixer.png'
