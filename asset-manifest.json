@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.dc780ba9.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.f76a06eb.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.f76a06eb.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.72129eb9.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.72129eb9.js.map",
+    "static/js/2.3ac186c5.chunk.js": "/React_Portfolio/static/js/2.3ac186c5.chunk.js",
+    "static/js/2.3ac186c5.chunk.js.map": "/React_Portfolio/static/js/2.3ac186c5.chunk.js.map",
+    "static/js/3.5eb91689.chunk.js": "/React_Portfolio/static/js/3.5eb91689.chunk.js",
+    "static/js/3.5eb91689.chunk.js.map": "/React_Portfolio/static/js/3.5eb91689.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "static/css/main.dc780ba9.chunk.css.map": "/React_Portfolio/static/css/main.dc780ba9.chunk.css.map",
+    "static/js/2.3ac186c5.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.3ac186c5.chunk.js.LICENSE.txt",
+    "static/media/Mimi-Resume-21.04090f88.pdf": "/React_Portfolio/static/media/Mimi-Resume-21.04090f88.pdf",
+    "static/media/beyond.f30c4c40.png": "/React_Portfolio/static/media/beyond.f30c4c40.png",
+    "static/media/logo.ed665fa8.png": "/React_Portfolio/static/media/logo.ed665fa8.png",
+    "static/media/mimi-square.041706ca.jpeg": "/React_Portfolio/static/media/mimi-square.041706ca.jpeg",
+    "static/media/mimi.8c201555.jpeg": "/React_Portfolio/static/media/mimi.8c201555.jpeg",
+    "static/media/miso.b487a5fb.png": "/React_Portfolio/static/media/miso.b487a5fb.png",
+    "static/media/moviemixer.dc52c79f.png": "/React_Portfolio/static/media/moviemixer.dc52c79f.png",
+    "static/media/portfolio.b00ce338.png": "/React_Portfolio/static/media/portfolio.b00ce338.png",
+    "static/media/quiz.37a2abb7.png": "/React_Portfolio/static/media/quiz.37a2abb7.png",
+    "static/media/scheduler.97857ad8.png": "/React_Portfolio/static/media/scheduler.97857ad8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72129eb9.js",
+    "static/js/2.3ac186c5.chunk.js",
+    "static/css/main.dc780ba9.chunk.css",
+    "static/js/main.f76a06eb.chunk.js"
+  ]
+}
